@@ -7,7 +7,7 @@ class TestWheel(object):
         self.wheel = Wheel(26, 1.5)
 
     def test_implements_the_diameterizable_interface(self):
-        assert hasattr(self.wheel, 'diameter')
+        assert 'diameter' in dir(self.wheel)
 
     def test_calculates_diameter(self):
         assert 29 == approx(self.wheel.diameter, 0.01)
