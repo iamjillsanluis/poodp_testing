@@ -8,5 +8,5 @@ class Wheel(object):
 
     @property
     def width(self):
-        sleep(0.10)
+        sleep(10)
         return self.rim + (self.tire * 2)
