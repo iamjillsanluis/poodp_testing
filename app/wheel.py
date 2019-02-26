@@ -5,4 +5,4 @@ class Wheel(object):
 
     @property
     def diameter(self):
-        return self.rim + (self.tire * 2) + 2.0
+        return self.rim + (self.tire * 2)
