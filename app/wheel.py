@@ -7,6 +7,6 @@ class Wheel(object):
         self.tire = tire
 
     @property
-    def diameter(self):
-        sleep(10)
+    def width(self):
+        sleep(0.10)
         return self.rim + (self.tire * 2)
